@@ -1,1 +1,9 @@
+let number = 5 //even or odd (divide number by 2)
 
+let remainder = (number % 2) //Kalo sisa = 0, maka even & kalo engga maka odd
+
+if ( remainder == 0 ){ //kalo sisanya sama dengan 0 maka:
+    document.getElementById("Halo").innerHTML = `${number} is even`
+}else { //selain itu maka:
+    document.getElementById("Halo").innerHTML = `${number} is odd`
+}
